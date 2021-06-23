@@ -49,7 +49,7 @@ app.use(function(err, req, res, next) {
 
 
 
-var mongoDB = 'mongodb://127.0.0.1/my_database';
+var mongoDB = 'mongodb+srv://YassineLadhib:Yassineladhib1996@cluster0.jbtot.mongodb.net/test';
 mongoose.connect(mongoDB, {useNewUrlParser: true, useUnifiedTopology: true}).then(
   ()=>{
     console.log("connected  to db")
